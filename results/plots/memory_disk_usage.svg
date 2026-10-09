@@ -1,0 +1,36 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='470' viewBox='0 0 900 470' font-family='Helvetica,Arial,sans-serif'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='450' y='28' text-anchor='middle' font-size='17' font-weight='bold'>Memory vs disk footprint</text>
+<line x1='85' x2='875' y1='355' y2='355' stroke='#ddd'/>
+<text x='77' y='359' text-anchor='end' font-size='12'>0</text>
+<line x1='85' x2='875' y1='295' y2='295' stroke='#ddd'/>
+<text x='77' y='299' text-anchor='end' font-size='12'>200</text>
+<line x1='85' x2='875' y1='235' y2='235' stroke='#ddd'/>
+<text x='77' y='239' text-anchor='end' font-size='12'>400</text>
+<line x1='85' x2='875' y1='175' y2='175' stroke='#ddd'/>
+<text x='77' y='179' text-anchor='end' font-size='12'>600</text>
+<line x1='85' x2='875' y1='115' y2='115' stroke='#ddd'/>
+<text x='77' y='119' text-anchor='end' font-size='12'>800</text>
+<line x1='85' x2='875' y1='55' y2='55' stroke='#ddd'/>
+<text x='77' y='59' text-anchor='end' font-size='12'>1.0k</text>
+<line x1='85' x2='85' y1='55' y2='355' stroke='#333'/>
+<line x1='85' x2='875' y1='355' y2='355' stroke='#333'/>
+<text transform='translate(22,205) rotate(-90)' text-anchor='middle' font-size='13'>MB</text>
+<rect x='102.38' y='151.581' width='56.6904' height='203.419' fill='#2b7bba'><title>RAM used by build (MB): 678</title></rect>
+<rect x='164' y='355' width='56.6904' height='0' fill='#d1495b'><title>disk used (MB): 0</title></rect>
+<text transform='translate(164,373) rotate(-18)' text-anchor='end' font-size='12'>Memory-only</text>
+<rect x='260.38' y='345.128' width='56.6904' height='9.87187' fill='#2b7bba'><title>RAM used by build (MB): 33</title></rect>
+<rect x='322' y='104.096' width='56.6904' height='250.904' fill='#d1495b'><title>disk used (MB): 836</title></rect>
+<text transform='translate(322,373) rotate(-18)' text-anchor='end' font-size='12'>Disk-only</text>
+<rect x='418.38' y='279.016' width='56.6904' height='75.9844' fill='#2b7bba'><title>RAM used by build (MB): 253</title></rect>
+<rect x='480' y='104.096' width='56.6904' height='250.904' fill='#d1495b'><title>disk used (MB): 836</title></rect>
+<text transform='translate(480,373) rotate(-18)' text-anchor='end' font-size='12'>Memory + Disk (32 MB pool)</text>
+<rect x='576.38' y='176.904' width='56.6904' height='178.096' fill='#2b7bba'><title>RAM used by build (MB): 594</title></rect>
+<rect x='638' y='104.096' width='56.6904' height='250.904' fill='#d1495b'><title>disk used (MB): 836</title></rect>
+<text transform='translate(638,373) rotate(-18)' text-anchor='end' font-size='12'>Memory + Disk (128 MB pool)</text>
+<rect x='734.38' y='199.11' width='56.6904' height='155.89' fill='#2b7bba'><title>RAM used by build (MB): 520</title></rect>
+<rect x='796' y='104.096' width='56.6904' height='250.904' fill='#d1495b'><title>disk used (MB): 836</title></rect>
+<text transform='translate(796,373) rotate(-18)' text-anchor='end' font-size='12'>Memory + Disk (512 MB pool)</text>
+<rect x='665' y='61' width='13' height='13' fill='#2b7bba'/><text x='684' y='72' font-size='12'>RAM used by build (MB)</text>
+<rect x='665' y='81' width='13' height='13' fill='#d1495b'/><text x='684' y='92' font-size='12'>disk used (MB)</text>
+</svg>

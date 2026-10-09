@@ -1,0 +1,6 @@
+build/
+storage/
+data/
+results_demo/
+*.csv
+.DS_Store

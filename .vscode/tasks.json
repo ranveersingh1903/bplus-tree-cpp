@@ -1,0 +1,57 @@
+{
+  "version": "2.0.0",
+  "inputs": [
+    {
+      "id": "csv",
+      "type": "promptString",
+      "description": "Dataset CSV path",
+      "default": "/Users/nileshmishra/Downloads/bplus_tree_data_10m.csv"
+    }
+  ],
+  "tasks": [
+    {
+      "label": "1. Build",
+      "type": "shell",
+      "command": "make",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "2. Run tests",
+      "type": "shell",
+      "command": "make test",
+      "group": { "kind": "test", "isDefault": true },
+      "problemMatcher": ["$gcc"]
+    },
+    {
+      "label": "3. Demo (500k synthetic rows, ~10 s)",
+      "type": "shell",
+      "command": "make demo && open results_demo/REPORT.md || true",
+      "problemMatcher": []
+    },
+    {
+      "label": "4. Quick run (first 1M records)",
+      "type": "shell",
+      "command": "./run_all.sh --csv \"${input:csv}\" --limit 1000000 --validate",
+      "problemMatcher": []
+    },
+    {
+      "label": "5. FULL run (10M records + pool sweep)",
+      "type": "shell",
+      "command": "./run_all.sh --csv \"${input:csv}\" --validate --pool-sweep 32,128,512",
+      "problemMatcher": []
+    },
+    {
+      "label": "6. Regenerate report",
+      "type": "shell",
+      "command": "make report",
+      "problemMatcher": []
+    },
+    {
+      "label": "Build debug binaries",
+      "type": "shell",
+      "command": "make debug",
+      "problemMatcher": ["$gcc"]
+    }
+  ]
+}

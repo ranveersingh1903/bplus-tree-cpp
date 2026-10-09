@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug: unit tests",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/debug/test_bptree",
+      "cwd": "${workspaceFolder}",
+      "MIMode": "lldb",
+      "preLaunchTask": "Build debug binaries"
+    },
+    {
+      "name": "Debug: benchmark (hybrid, 100k sample rows)",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/build/debug/bptree_bench",
+      "args": ["--tree", "hybrid", "--csv", "data/sample.csv", "--limit", "100000",
+               "--hits", "1000", "--misses", "100", "--ranges", "10", "--validate"],
+      "cwd": "${workspaceFolder}",
+      "MIMode": "lldb",
+      "preLaunchTask": "Build debug binaries"
+    }
+  ]
+}

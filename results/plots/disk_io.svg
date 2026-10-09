@@ -1,0 +1,47 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='470' viewBox='0 0 900 470' font-family='Helvetica,Arial,sans-serif'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='450' y='28' text-anchor='middle' font-size='17' font-weight='bold'>Index page I/O per operation</text>
+<line x1='85' x2='875' y1='355' y2='355' stroke='#ddd'/>
+<text x='77' y='359' text-anchor='end' font-size='12'>0</text>
+<line x1='85' x2='875' y1='312.143' y2='312.143' stroke='#ddd'/>
+<text x='77' y='316.143' text-anchor='end' font-size='12'>0.5</text>
+<line x1='85' x2='875' y1='269.286' y2='269.286' stroke='#ddd'/>
+<text x='77' y='273.286' text-anchor='end' font-size='12'>1</text>
+<line x1='85' x2='875' y1='226.429' y2='226.429' stroke='#ddd'/>
+<text x='77' y='230.429' text-anchor='end' font-size='12'>1.5</text>
+<line x1='85' x2='875' y1='183.571' y2='183.571' stroke='#ddd'/>
+<text x='77' y='187.571' text-anchor='end' font-size='12'>2</text>
+<line x1='85' x2='875' y1='140.714' y2='140.714' stroke='#ddd'/>
+<text x='77' y='144.714' text-anchor='end' font-size='12'>2.5</text>
+<line x1='85' x2='875' y1='97.8571' y2='97.8571' stroke='#ddd'/>
+<text x='77' y='101.857' text-anchor='end' font-size='12'>3</text>
+<line x1='85' x2='875' y1='55' y2='55' stroke='#ddd'/>
+<text x='77' y='59' text-anchor='end' font-size='12'>3.5</text>
+<line x1='85' x2='85' y1='55' y2='355' stroke='#333'/>
+<line x1='85' x2='875' y1='355' y2='355' stroke='#333'/>
+<text transform='translate(22,205) rotate(-90)' text-anchor='middle' font-size='13'>pages</text>
+<rect x='106.725' y='98.3849' width='35.4315' height='256.615' fill='#2b7bba'><title>page reads / insert: 3</title></rect>
+<rect x='145.238' y='268.294' width='35.4315' height='86.7061' fill='#d1495b'><title>page writes / insert: 1</title></rect>
+<rect x='183.75' y='97.8571' width='35.4315' height='257.143' fill='#3a9e5f'><title>page reads / search (cold): 3</title></rect>
+<rect x='222.262' y='97.8571' width='35.4315' height='257.143' fill='#edae49'><title>page reads / search (warm): 3</title></rect>
+<text transform='translate(183.75,373) rotate(-18)' text-anchor='end' font-size='12'>Disk-only</text>
+<rect x='304.225' y='306.086' width='35.4315' height='48.9136' fill='#2b7bba'><title>page reads / insert: 0.571</title></rect>
+<rect x='342.738' y='305.59' width='35.4315' height='49.4096' fill='#d1495b'><title>page writes / insert: 0.576</title></rect>
+<rect x='381.25' y='281.03' width='35.4315' height='73.9697' fill='#3a9e5f'><title>page reads / search (cold): 0.863</title></rect>
+<rect x='419.763' y='282.267' width='35.4315' height='72.7329' fill='#edae49'><title>page reads / search (warm): 0.849</title></rect>
+<text transform='translate(381.25,373) rotate(-18)' text-anchor='end' font-size='12'>Memory + Disk (32 MB pool)</text>
+<rect x='501.725' y='346.434' width='35.4315' height='8.56575' fill='#2b7bba'><title>page reads / insert: 0.1</title></rect>
+<rect x='540.238' y='345.938' width='35.4315' height='9.06168' fill='#d1495b'><title>page writes / insert: 0.106</title></rect>
+<rect x='578.75' y='308.429' width='35.4315' height='46.5711' fill='#3a9e5f'><title>page reads / search (cold): 0.543</title></rect>
+<rect x='617.263' y='322.232' width='35.4315' height='32.7677' fill='#edae49'><title>page reads / search (warm): 0.382</title></rect>
+<text transform='translate(578.75,373) rotate(-18)' text-anchor='end' font-size='12'>Memory + Disk (128 MB pool)</text>
+<rect x='699.225' y='355' width='35.4315' height='0' fill='#2b7bba'><title>page reads / insert: 0</title></rect>
+<rect x='737.738' y='354.504' width='35.4315' height='0.495934' fill='#d1495b'><title>page writes / insert: 0.006</title></rect>
+<rect x='776.25' y='314.791' width='35.4315' height='40.2086' fill='#3a9e5f'><title>page reads / search (cold): 0.469</title></rect>
+<rect x='814.763' y='355' width='35.4315' height='0' fill='#edae49'><title>page reads / search (warm): 0</title></rect>
+<text transform='translate(776.25,373) rotate(-18)' text-anchor='end' font-size='12'>Memory + Disk (512 MB pool)</text>
+<rect x='665' y='61' width='13' height='13' fill='#2b7bba'/><text x='684' y='72' font-size='12'>page reads / insert</text>
+<rect x='665' y='81' width='13' height='13' fill='#d1495b'/><text x='684' y='92' font-size='12'>page writes / insert</text>
+<rect x='665' y='101' width='13' height='13' fill='#3a9e5f'/><text x='684' y='112' font-size='12'>page reads / search (cold)</text>
+<rect x='665' y='121' width='13' height='13' fill='#edae49'/><text x='684' y='132' font-size='12'>page reads / search (warm)</text>
+</svg>

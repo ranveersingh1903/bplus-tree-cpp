@@ -1,0 +1,89 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='900' height='470' viewBox='0 0 900 470' font-family='Helvetica,Arial,sans-serif'>
+<rect width='100%' height='100%' fill='white'/>
+<text x='450' y='28' text-anchor='middle' font-size='17' font-weight='bold'>Insertion progress</text>
+<line x1='85' x2='875' y1='400' y2='400' stroke='#ddd'/>
+<text x='77' y='404' text-anchor='end' font-size='12'>0</text>
+<line x1='85' x2='875' y1='313.75' y2='313.75' stroke='#ddd'/>
+<text x='77' y='317.75' text-anchor='end' font-size='12'>50</text>
+<line x1='85' x2='875' y1='227.5' y2='227.5' stroke='#ddd'/>
+<text x='77' y='231.5' text-anchor='end' font-size='12'>100</text>
+<line x1='85' x2='875' y1='141.25' y2='141.25' stroke='#ddd'/>
+<text x='77' y='145.25' text-anchor='end' font-size='12'>150</text>
+<line x1='85' x2='875' y1='55' y2='55' stroke='#ddd'/>
+<text x='77' y='59' text-anchor='end' font-size='12'>200</text>
+<line x1='85' x2='85' y1='55' y2='400' stroke='#333'/>
+<line x1='85' x2='875' y1='400' y2='400' stroke='#333'/>
+<text transform='translate(22,227.5) rotate(-90)' text-anchor='middle' font-size='13'>cumulative insertion time (s)</text>
+<text x='85' y='418' text-anchor='middle' font-size='12'>0</text>
+<text x='243' y='418' text-anchor='middle' font-size='12'>2</text>
+<text x='401' y='418' text-anchor='middle' font-size='12'>4</text>
+<text x='559' y='418' text-anchor='middle' font-size='12'>6</text>
+<text x='717' y='418' text-anchor='middle' font-size='12'>8</text>
+<text x='875' y='418' text-anchor='middle' font-size='12'>10</text>
+<text x='480' y='452' text-anchor='middle' font-size='13'>records inserted (millions)</text>
+<polyline fill='none' stroke-width='2.2' stroke='#2b7bba' points='85,400 164,398.9 243,397.347 322,395.655 401,393.886 480,392.096 559,390.231 638,388.331 717,386.28 796,384.24 875,382.314 '/>
+<circle cx='85' cy='400' r='3' fill='#2b7bba'/>
+<circle cx='164' cy='398.9' r='3' fill='#2b7bba'/>
+<circle cx='243' cy='397.347' r='3' fill='#2b7bba'/>
+<circle cx='322' cy='395.655' r='3' fill='#2b7bba'/>
+<circle cx='401' cy='393.886' r='3' fill='#2b7bba'/>
+<circle cx='480' cy='392.096' r='3' fill='#2b7bba'/>
+<circle cx='559' cy='390.231' r='3' fill='#2b7bba'/>
+<circle cx='638' cy='388.331' r='3' fill='#2b7bba'/>
+<circle cx='717' cy='386.28' r='3' fill='#2b7bba'/>
+<circle cx='796' cy='384.24' r='3' fill='#2b7bba'/>
+<circle cx='875' cy='382.314' r='3' fill='#2b7bba'/>
+<polyline fill='none' stroke-width='2.2' stroke='#d1495b' points='85,400 164,373.323 243,344.408 322,315.693 401,285.64 480,256.086 559,226.278 638,194.822 717,162.939 796,129.28 875,90.847 '/>
+<circle cx='85' cy='400' r='3' fill='#d1495b'/>
+<circle cx='164' cy='373.323' r='3' fill='#d1495b'/>
+<circle cx='243' cy='344.408' r='3' fill='#d1495b'/>
+<circle cx='322' cy='315.693' r='3' fill='#d1495b'/>
+<circle cx='401' cy='285.64' r='3' fill='#d1495b'/>
+<circle cx='480' cy='256.086' r='3' fill='#d1495b'/>
+<circle cx='559' cy='226.278' r='3' fill='#d1495b'/>
+<circle cx='638' cy='194.822' r='3' fill='#d1495b'/>
+<circle cx='717' cy='162.939' r='3' fill='#d1495b'/>
+<circle cx='796' cy='129.28' r='3' fill='#d1495b'/>
+<circle cx='875' cy='90.847' r='3' fill='#d1495b'/>
+<polyline fill='none' stroke-width='2.2' stroke='#3a9e5f' points='85,400 164,398.244 243,393.751 322,383.186 401,370.957 480,356.804 559,341.233 638,325.115 717,307.528 796,288.073 875,269.604 '/>
+<circle cx='85' cy='400' r='3' fill='#3a9e5f'/>
+<circle cx='164' cy='398.244' r='3' fill='#3a9e5f'/>
+<circle cx='243' cy='393.751' r='3' fill='#3a9e5f'/>
+<circle cx='322' cy='383.186' r='3' fill='#3a9e5f'/>
+<circle cx='401' cy='370.957' r='3' fill='#3a9e5f'/>
+<circle cx='480' cy='356.804' r='3' fill='#3a9e5f'/>
+<circle cx='559' cy='341.233' r='3' fill='#3a9e5f'/>
+<circle cx='638' cy='325.115' r='3' fill='#3a9e5f'/>
+<circle cx='717' cy='307.528' r='3' fill='#3a9e5f'/>
+<circle cx='796' cy='288.073' r='3' fill='#3a9e5f'/>
+<circle cx='875' cy='269.604' r='3' fill='#3a9e5f'/>
+<polyline fill='none' stroke-width='2.2' stroke='#edae49' points='85,400 164,398.32 243,395.84 322,393.105 401,390.268 480,387.303 559,383.899 638,375.971 717,367.216 796,356.575 875,344.156 '/>
+<circle cx='85' cy='400' r='3' fill='#edae49'/>
+<circle cx='164' cy='398.32' r='3' fill='#edae49'/>
+<circle cx='243' cy='395.84' r='3' fill='#edae49'/>
+<circle cx='322' cy='393.105' r='3' fill='#edae49'/>
+<circle cx='401' cy='390.268' r='3' fill='#edae49'/>
+<circle cx='480' cy='387.303' r='3' fill='#edae49'/>
+<circle cx='559' cy='383.899' r='3' fill='#edae49'/>
+<circle cx='638' cy='375.971' r='3' fill='#edae49'/>
+<circle cx='717' cy='367.216' r='3' fill='#edae49'/>
+<circle cx='796' cy='356.575' r='3' fill='#edae49'/>
+<circle cx='875' cy='344.156' r='3' fill='#edae49'/>
+<polyline fill='none' stroke-width='2.2' stroke='#8e6c8a' points='85,400 164,398.301 243,395.878 322,393.131 401,390.27 480,387.234 559,384.007 638,380.481 717,376.971 796,373.129 875,369.407 '/>
+<circle cx='85' cy='400' r='3' fill='#8e6c8a'/>
+<circle cx='164' cy='398.301' r='3' fill='#8e6c8a'/>
+<circle cx='243' cy='395.878' r='3' fill='#8e6c8a'/>
+<circle cx='322' cy='393.131' r='3' fill='#8e6c8a'/>
+<circle cx='401' cy='390.27' r='3' fill='#8e6c8a'/>
+<circle cx='480' cy='387.234' r='3' fill='#8e6c8a'/>
+<circle cx='559' cy='384.007' r='3' fill='#8e6c8a'/>
+<circle cx='638' cy='380.481' r='3' fill='#8e6c8a'/>
+<circle cx='717' cy='376.971' r='3' fill='#8e6c8a'/>
+<circle cx='796' cy='373.129' r='3' fill='#8e6c8a'/>
+<circle cx='875' cy='369.407' r='3' fill='#8e6c8a'/>
+<rect x='665' y='61' width='13' height='13' fill='#2b7bba'/><text x='684' y='72' font-size='12'>Memory-only</text>
+<rect x='665' y='81' width='13' height='13' fill='#d1495b'/><text x='684' y='92' font-size='12'>Disk-only</text>
+<rect x='665' y='101' width='13' height='13' fill='#3a9e5f'/><text x='684' y='112' font-size='12'>Memory + Disk (32 MB pool)</text>
+<rect x='665' y='121' width='13' height='13' fill='#edae49'/><text x='684' y='132' font-size='12'>Memory + Disk (128 MB pool)</text>
+<rect x='665' y='141' width='13' height='13' fill='#8e6c8a'/><text x='684' y='152' font-size='12'>Memory + Disk (512 MB pool)</text>
+</svg>

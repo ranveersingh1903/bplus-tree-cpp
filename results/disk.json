@@ -1,0 +1,394 @@
+{
+  "label": "disk",
+  "tree": "disk",
+  "records": 10000000,
+  "config": {
+    "page_size": 4096,
+    "key_size": 8,
+    "leaf_capacity": 255,
+    "internal_capacity": 339,
+    "pool_mb": null,
+    "pool_pages": null,
+    "pin_internal": null,
+    "direct_io": false,
+    "seed": 42,
+    "hits": 100000,
+    "misses": 10000,
+    "ranges": 1000,
+    "range_len": 100
+  },
+  "dataset": {
+    "csv": "/Users/nileshmishra/Downloads/bplus_tree_data_10m.csv",
+    "csv_bytes": 740000012,
+    "rows": 10000000,
+    "max_key_bytes": 8,
+    "avg_key_bytes": 8,
+    "avg_payload_bytes": 64
+  },
+  "system": {
+    "language": "C++17",
+    "compiler": "clang 14.0.3 (clang-1403.0.22.14.1)",
+    "platform": "Darwin 22.4.0",
+    "machine": "x86_64",
+    "cpu_count": 16,
+    "total_ram_bytes": 8589934592
+  },
+  "build": {
+    "insert_s": 179.219159011,
+    "flush_s": 0.560601324,
+    "total_s": 179.779760335,
+    "wall_s_including_csv": 213.152891581,
+    "inserts_per_s": 55797.6058764,
+    "avg_insert_us": 17.9219159011,
+    "io": {
+      "page_reads": 29938426,
+      "page_writes": 10115708,
+      "pages_allocated": 57855,
+      "heap_reads": 0,
+      "heap_writes": 10000000
+    },
+    "io_per_insert": {
+      "page_reads": 2.9938426,
+      "page_writes": 1.0115708,
+      "pages_allocated": 0.0057855,
+      "heap_reads": 0,
+      "heap_writes": 1
+    },
+    "checkpoints": [
+      {
+        "records": 1000000,
+        "insert_s": 15.464805788,
+        "height": 3,
+        "rss_bytes": 28073984,
+        "io": {
+          "page_reads": 2938426,
+          "page_writes": 1011398,
+          "pages_allocated": 5701,
+          "heap_reads": 0,
+          "heap_writes": 1000000
+        }
+      },
+      {
+        "records": 2000000,
+        "insert_s": 32.227347158,
+        "height": 3,
+        "rss_bytes": 30117888,
+        "io": {
+          "page_reads": 5938426,
+          "page_writes": 2022738,
+          "pages_allocated": 11371,
+          "heap_reads": 0,
+          "heap_writes": 2000000
+        }
+      },
+      {
+        "records": 3000000,
+        "insert_s": 48.873508481,
+        "height": 3,
+        "rss_bytes": 31391744,
+        "io": {
+          "page_reads": 8938426,
+          "page_writes": 3033512,
+          "pages_allocated": 16758,
+          "heap_reads": 0,
+          "heap_writes": 3000000
+        }
+      },
+      {
+        "records": 4000000,
+        "insert_s": 66.295852088,
+        "height": 3,
+        "rss_bytes": 34545664,
+        "io": {
+          "page_reads": 11938426,
+          "page_writes": 4045546,
+          "pages_allocated": 22775,
+          "heap_reads": 0,
+          "heap_writes": 4000000
+        }
+      },
+      {
+        "records": 5000000,
+        "insert_s": 83.428636439,
+        "height": 3,
+        "rss_bytes": 35635200,
+        "io": {
+          "page_reads": 14938426,
+          "page_writes": 5058084,
+          "pages_allocated": 29044,
+          "heap_reads": 0,
+          "heap_writes": 5000000
+        }
+      },
+      {
+        "records": 6000000,
+        "insert_s": 100.70824691,
+        "height": 3,
+        "rss_bytes": 37036032,
+        "io": {
+          "page_reads": 17938426,
+          "page_writes": 6067122,
+          "pages_allocated": 33563,
+          "heap_reads": 0,
+          "heap_writes": 6000000
+        }
+      },
+      {
+        "records": 7000000,
+        "insert_s": 118.943870876,
+        "height": 3,
+        "rss_bytes": 38916096,
+        "io": {
+          "page_reads": 20938426,
+          "page_writes": 7077540,
+          "pages_allocated": 38772,
+          "heap_reads": 0,
+          "heap_writes": 7000000
+        }
+      },
+      {
+        "records": 8000000,
+        "insert_s": 137.426396105,
+        "height": 3,
+        "rss_bytes": 40476672,
+        "io": {
+          "page_reads": 23938426,
+          "page_writes": 8091076,
+          "pages_allocated": 45540,
+          "heap_reads": 0,
+          "heap_writes": 8000000
+        }
+      },
+      {
+        "records": 9000000,
+        "insert_s": 156.938949084,
+        "height": 3,
+        "rss_bytes": 42213376,
+        "io": {
+          "page_reads": 26938426,
+          "page_writes": 9104518,
+          "pages_allocated": 52261,
+          "heap_reads": 0,
+          "heap_writes": 9000000
+        }
+      },
+      {
+        "records": 10000000,
+        "insert_s": 179.219159011,
+        "height": 3,
+        "rss_bytes": 43778048,
+        "io": {
+          "page_reads": 29938426,
+          "page_writes": 10115706,
+          "pages_allocated": 57855,
+          "heap_reads": 0,
+          "heap_writes": 10000000
+        }
+      }
+    ]
+  },
+  "structure": {
+    "height": 3,
+    "records": 10000000,
+    "leaf_nodes": 57597,
+    "internal_nodes": 257,
+    "total_nodes": 57854,
+    "leaf_capacity": 255,
+    "internal_capacity": 339,
+    "max_fanout": 340,
+    "leaf_fill_factor": 0.680863348343,
+    "key_size_bytes": 8,
+    "page_size_bytes": 4096
+  },
+  "memory": {
+    "rss_start": 9273344,
+    "rss_after_build": 43778048,
+    "build_delta": 34504704,
+    "rss_end": 45297664,
+    "peak_rss": 45309952,
+    "rss_after_reopen": 44781568
+  },
+  "disk": {
+    "index_bytes": 236974080,
+    "heap_bytes": 640000000,
+    "total_bytes": 876974080
+  },
+  "reopen": {
+    "open_s": 6.918e-05,
+    "rss_after_reopen": 44781568
+  },
+  "search": {
+    "cold": {
+      "point_hit": {
+        "count": 100000,
+        "total_s": 8.855689433,
+        "avg_us": 88.55689433,
+        "p50_us": 100.926,
+        "p95_us": 176.146,
+        "p99_us": 210.606,
+        "max_us": 5981.993,
+        "ops_per_s": 11292.1755846,
+        "correct": 100000,
+        "io": {
+          "page_reads": 300000,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 100000,
+          "heap_writes": 0
+        },
+        "io_per_op": {
+          "page_reads": 3,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 1,
+          "heap_writes": 0
+        }
+      },
+      "point_miss": {
+        "count": 10000,
+        "total_s": 0.073467064,
+        "avg_us": 7.3467064,
+        "p50_us": 7.274,
+        "p95_us": 7.783,
+        "p99_us": 8.068,
+        "max_us": 68.937,
+        "ops_per_s": 136115.41629,
+        "correct": 10000,
+        "io": {
+          "page_reads": 30000,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 0,
+          "heap_writes": 0
+        },
+        "io_per_op": {
+          "page_reads": 3,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 0,
+          "heap_writes": 0
+        }
+      },
+      "range": {
+        "count": 1000,
+        "total_s": 6.815488696,
+        "avg_us": 6815.488696,
+        "p50_us": 6737.233,
+        "p95_us": 7855.754,
+        "p99_us": 10398.286,
+        "max_us": 16963.119,
+        "ops_per_s": 146.724621609,
+        "rows_returned": 100000,
+        "sorted_ok": true,
+        "digest": "30e27bba95c78d80",
+        "io": {
+          "page_reads": 3589,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 100000,
+          "heap_writes": 0
+        },
+        "io_per_op": {
+          "page_reads": 3.589,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 100,
+          "heap_writes": 0
+        }
+      }
+    },
+    "warm": {
+      "point_hit": {
+        "count": 100000,
+        "total_s": 7.818369661,
+        "avg_us": 78.18369661,
+        "p50_us": 100.472,
+        "p95_us": 182.489,
+        "p99_us": 210.957,
+        "max_us": 21635.206,
+        "ops_per_s": 12790.3903673,
+        "correct": 100000,
+        "io": {
+          "page_reads": 300000,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 100000,
+          "heap_writes": 0
+        },
+        "io_per_op": {
+          "page_reads": 3,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 1,
+          "heap_writes": 0
+        }
+      },
+      "point_miss": {
+        "count": 10000,
+        "total_s": 0.074037221,
+        "avg_us": 7.4037221,
+        "p50_us": 7.305,
+        "p95_us": 7.894,
+        "p99_us": 8.222,
+        "max_us": 69.6,
+        "ops_per_s": 135067.19816,
+        "correct": 10000,
+        "io": {
+          "page_reads": 30000,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 0,
+          "heap_writes": 0
+        },
+        "io_per_op": {
+          "page_reads": 3,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 0,
+          "heap_writes": 0
+        }
+      },
+      "range": {
+        "count": 1000,
+        "total_s": 5.390161554,
+        "avg_us": 5390.161554,
+        "p50_us": 5301.489,
+        "p95_us": 6993.629,
+        "p99_us": 9526.501,
+        "max_us": 10901.563,
+        "ops_per_s": 185.523196287,
+        "rows_returned": 100000,
+        "sorted_ok": true,
+        "digest": "30e27bba95c78d80",
+        "io": {
+          "page_reads": 3589,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 100000,
+          "heap_writes": 0
+        },
+        "io_per_op": {
+          "page_reads": 3.589,
+          "page_writes": 0,
+          "pages_allocated": 0,
+          "heap_reads": 100,
+          "heap_writes": 0
+        }
+      }
+    }
+  },
+  "final_io": {
+    "page_reads": 667179,
+    "page_writes": 0,
+    "pages_allocated": 57855,
+    "heap_reads": 400000,
+    "heap_writes": 0
+  },
+  "validation": {
+    "ok": true,
+    "records": 10000000,
+    "leaves": 57597,
+    "internal": 257,
+    "seconds": 0.232865731
+  }
+}
